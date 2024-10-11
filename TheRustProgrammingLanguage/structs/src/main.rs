@@ -1,5 +1,5 @@
 #[derive(Debug)] // Derive the Debug trait for the struct -> to use in println! macro
-struct VideoGameCharacter {
+struct VideoGameCharacter { // Define a struct
     name: String,
     health: u32,
     experience: u32,
@@ -53,6 +53,4 @@ fn main() {
 
     println!("Icebrick {:?}", icebrick);
     //Console output -> icebrick VideoGameCharacter { name: "Icebrick", health: 100, experience: 0, level: 2 }
-
-
 }
